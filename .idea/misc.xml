@@ -9,6 +9,7 @@
         <option value="$PROJECT_DIR$/length-service/pom.xml" />
         <option value="$PROJECT_DIR$/weight-service/pom.xml" />
         <option value="$PROJECT_DIR$/currency-exchange-service/pom.xml" />
+        <option value="$PROJECT_DIR$/currency-conversion-service/pom.xml" />
       </list>
     </option>
     <option name="workspaceImportForciblyTurnedOn" value="true" />

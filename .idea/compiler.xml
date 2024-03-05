@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="currency-exchange-service" />
         <module name="weight-service" />
+        <module name="currency-conversion-service" />
         <module name="limit-service" />
         <module name="length-service" />
         <module name="spring-cloud-config-server" />
@@ -16,6 +17,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="currency-conversion-service" options="-parameters" />
       <module name="currency-exchange-service" options="-parameters" />
       <module name="length-service" options="-parameters" />
       <module name="limit-service" options="-parameters" />
