@@ -6,12 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="currency-exchange-service" />
-        <module name="weight-service" />
         <module name="currency-conversion-service" />
-        <module name="limit-service" />
         <module name="length-service" />
         <module name="spring-cloud-config-server" />
+        <module name="currency-exchange-service" />
+        <module name="weight-service" />
+        <module name="limit-service" />
+        <module name="naming-server" />
       </profile>
     </annotationProcessing>
   </component>
@@ -21,6 +22,7 @@
       <module name="currency-exchange-service" options="-parameters" />
       <module name="length-service" options="-parameters" />
       <module name="limit-service" options="-parameters" />
+      <module name="naming-server" options="-parameters" />
       <module name="spring-cloud-config-server" options="-parameters" />
       <module name="weight-service" options="-parameters" />
     </option>
