@@ -31,6 +31,7 @@ public class CurrencyConversionController {
 //                currencyConversion.getConversionMultiple()
 //                ,quantity.multiply(currencyConversion.getConversionMultiple()),currencyConversion.getEnvironment());
 //    }
+
     // Feign Implementation
     @GetMapping("/currency-conversion/from/{from}/to/{to}/quantity/{quantity}")
     public CurrencyConversion calculateCurrencyConversionUsingFeign(@PathVariable String from,@PathVariable String to,
