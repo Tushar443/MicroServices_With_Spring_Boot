@@ -12,6 +12,14 @@
         <option value="$PROJECT_DIR$/currency-conversion-service/pom.xml" />
         <option value="$PROJECT_DIR$/naming-server/pom.xml" />
         <option value="$PROJECT_DIR$/api-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/Currency-Conversion-Microservice/api-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/Currency-Conversion-Microservice/currency-conversion-service/pom.xml" />
+        <option value="$PROJECT_DIR$/Currency-Conversion-Microservice/currency-exchange-service/pom.xml" />
+        <option value="$PROJECT_DIR$/Currency-Conversion-Microservice/naming-server/pom.xml" />
+        <option value="$PROJECT_DIR$/length-weight-height-microservice/length-service/pom.xml" />
+        <option value="$PROJECT_DIR$/length-weight-height-microservice/limit-service/pom.xml" />
+        <option value="$PROJECT_DIR$/length-weight-height-microservice/spring-cloud-config-server/pom.xml" />
+        <option value="$PROJECT_DIR$/length-weight-height-microservice/weight-service/pom.xml" />
       </list>
     </option>
   </component>

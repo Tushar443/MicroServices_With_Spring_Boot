@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/Currency-Conversion-Microservice/api-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Currency-Conversion-Microservice/currency-conversion-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Currency-Conversion-Microservice/currency-exchange-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Currency-Conversion-Microservice/naming-server/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/api-gateway/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/currency-conversion-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/currency-exchange-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/length-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/length-weight-height-microservice/length-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/length-weight-height-microservice/limit-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/length-weight-height-microservice/spring-cloud-config-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/length-weight-height-microservice/weight-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/limit-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/naming-server/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-config-server/src/main/java" charset="UTF-8" />
