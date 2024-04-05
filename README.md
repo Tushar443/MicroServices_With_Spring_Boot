@@ -29,3 +29,25 @@ MicroServices With Spring Boot
 #### docker container ls
 #### docker images
 #### docker run -p 9411:9411 openzipkin/zipkin:2.23
+
+
+### Currency Exchange Service
+http://localhost:8000/currency-exchange/from/USD/to/INR
+
+### Currency Conversion Service
+http://localhost:8100/currency-conversion/from/USD/to/INR/quantity/10
+
+### Eureka
+http://localhost:8761
+
+### API Gateway
+http://localhost:8765/CURRENCY-EXCHANGE/currency-exchange/from/USD/to/INR
+http://localhost:8765/CURRENCY-CONVERSION/currency-conversion/from/USD/to/INR/quantity/10
+
+### After lower case
+http://localhost:8765/currency-exchange/currency-exchange/from/USD/to/INR
+http://localhost:8765/currency-conversion/currency-conversion/from/USD/to/INR/quantity/10
+
+### After API gateway
+http://localhost:8765/currency-exchange/from/USD/to/INR
+http://localhost:8765/currency-conversion/from/USD/to/INR/quantity/10

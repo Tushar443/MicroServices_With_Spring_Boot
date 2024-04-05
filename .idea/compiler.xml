@@ -19,14 +19,14 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="api-gateway" options="-parameters" />
-      <module name="currency-conversion-service" options="-parameters" />
-      <module name="currency-exchange-service" options="-parameters" />
-      <module name="length-service" options="-parameters" />
-      <module name="limit-service" options="-parameters" />
-      <module name="naming-server" options="-parameters" />
-      <module name="spring-cloud-config-server" options="-parameters" />
-      <module name="weight-service" options="-parameters" />
+      <module name="api-gateway" options="" />
+      <module name="currency-conversion-service" options="" />
+      <module name="currency-exchange-service" options="" />
+      <module name="length-service" options="" />
+      <module name="limit-service" options="" />
+      <module name="naming-server" options="" />
+      <module name="spring-cloud-config-server" options="" />
+      <module name="weight-service" options="" />
     </option>
   </component>
 </project>
