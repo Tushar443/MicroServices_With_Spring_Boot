@@ -12,7 +12,7 @@ public class ApiGatewayConfiguration {
     public RouteLocator gateWayRouter(RouteLocatorBuilder builder){
         return builder.routes()
                 .route(p-> p.path("/get")
-                        .filters(f-> f
+                        .filters(gatewayFilterSpec-> gatewayFilterSpec
                                 .addRequestHeader("MyHeader","Added Header My URI")
                                 .addRequestParameter("param","myParamValue")
                         )
@@ -20,9 +20,9 @@ public class ApiGatewayConfiguration {
                 .route(p->p.path("/currency-exchange/**")
                         .uri("lb://currency-exchange"))
                 .route(p->p.path("/currency-conversion/**")
-                        .uri("lb://currency-conversion"))
+                        .uri("lb://currency-conversion")) // here lb is for load balancing
                 .route(p->p.path("/currency-conversion-new/**")
-                        .filters(f->f.rewritePath("/currency-conversion-new/(?<segment>.*)",
+                        .filters(gatewayFilterSpec ->gatewayFilterSpec.rewritePath("/currency-conversion-new/(?<segment>.*)",
                                 "/currency-conversion/${segment}"))
                         .uri("lb://currency-conversion"))
                 .build();
