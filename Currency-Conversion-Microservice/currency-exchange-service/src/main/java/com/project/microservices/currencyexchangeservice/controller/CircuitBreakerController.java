@@ -15,7 +15,7 @@ public class CircuitBreakerController {
     @GetMapping("/sample-api")
 //    @Retry(name = "sample-api" ,fallbackMethod = "hardCodedResponse")
 //    @CircuitBreaker(name = "default", fallbackMethod = "hardCodedResponse")
-//    @RateLimiter(name = "default") // in 10s i need 2 call's to sample-api
+//    @RateLimiter(name = "default") // in 10s we need to send  1000 call's to sample-api
     @Bulkhead(name = "default")
     public String sameApi(){
         logger.info("sample api call received");
